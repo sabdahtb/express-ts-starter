@@ -1,7 +1,15 @@
 <div align="center">
-  <h1>Learn MENN Server</h1>
+  <h1>Express Starter With TypeScript</h1>
 
-  <p>Server for MENN with NodeJS, Express, MongoDB and TypeScript</p>
+  <p>Starter NodeJS project using ExpressJS EsLint and TypeScript</p>
+
+  <h4>
+    <a href="https://github.com/sabdahtb/express-ts-starter">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/sabdahtb/express-ts-starter/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/sabdahtb/express-ts-starter/issues/">Request Feature</a>
+  </h4>
 </div>
 
 <br />
@@ -66,11 +74,11 @@ Start the server in production mode
 Build the container
 
 ```bash
-  docker build . -t learn-menn-server
+  docker build . -t express-ts-starter
 ```
 
 Start the container
 
 ```bash
-  docker run -p <port you want the container to run at>:8000 -d learn-menn-server
+  docker run -p <port you want the container to run at>:8000 -d express-ts-starter
 ```
